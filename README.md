@@ -1,3 +1,7 @@
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Java](https://img.shields.io/badge/Java-17-blue)
+![TestNG](https://img.shields.io/badge/TestNG-Framework-orange)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-black)
 # Selenium Java Automation Framework
 
 Enterprise-grade Selenium automation framework built using **Java**, **TestNG**, **Maven**, and **Page Object Model (POM)**.  
