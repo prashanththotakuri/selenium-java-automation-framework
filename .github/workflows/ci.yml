@@ -24,4 +24,4 @@ jobs:
         uses: browser-actions/setup-chrome@v1
 
       - name: Run Tests
-        run: mvn -q clean test
+        run: mvn -e clean test
