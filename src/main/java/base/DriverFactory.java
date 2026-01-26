@@ -24,15 +24,17 @@ public class DriverFactory {
             case "chrome":
             default:
                 WebDriverManager.chromedriver().setup();
+ChromeOptions options = new ChromeOptions();
 
-                ChromeOptions options = new ChromeOptions();
+if (headless) {
+    options.addArguments("--headless=new");
+}
 
-                if (headless) {
-                    options.addArguments("--headless=new");
-                }
+options.addArguments("--no-sandbox");
+options.addArguments("--disable-dev-shm-usage");
+options.addArguments("--window-size=1920,1080");
+options.addArguments("--start-maximized");
 
-                options.addArguments("--start-maximized");
-                return new ChromeDriver(options);
         }
     }
 }
