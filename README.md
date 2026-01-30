@@ -1,8 +1,10 @@
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
+# Selenium Java Automation Framework
+
+[![Build](https://github.com/prashanththotakuri/selenium-java-automation-framework/actions/workflows/maven.yml/badge.svg)](https://github.com/prashanththotakuri/selenium-java-automation-framework/actions/workflows/maven.yml)
 ![Java](https://img.shields.io/badge/Java-17-blue)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-brightgreen)
 ![TestNG](https://img.shields.io/badge/TestNG-Framework-orange)
 ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-black)
-# Selenium Java Automation Framework
 
 Enterprise-grade Selenium automation framework built using **Java**, **TestNG**, **Maven**, and **Page Object Model (POM)**.  
 Designed to reflect real-world QA automation used in large-scale enterprise applications.
@@ -27,13 +29,7 @@ Automation : Selenium WebDriver
 Framework  : TestNG
 Build Tool : Maven
 Design     : Page Object Model (POM)
-CI/CD      : GitHub Actions / Jenkins
-```
-
----
-
-## 📂 Project Structure
-```text
+CI/CD      : GitHub Actions
 selenium-java-automation-framework
 │
 ├── src
@@ -50,19 +46,3 @@ selenium-java-automation-framework
 ├── pom.xml
 ├── testng.xml
 └── README.md
-```
-
----
-
-## 🧪 Sample Test Flow
-- Launch browser
-- Navigate to application
-- Perform actions using page methods
-- Validate expected results
-- Close browser
-
----
-
-## 📌 Purpose
-This framework demonstrates **real-world Selenium automation skills**, framework design, and CI-ready structure expected from a **Senior QA Automation Engineer**.
-
